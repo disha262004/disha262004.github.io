@@ -1,37 +1,72 @@
-body{
+body {
     text-align: center;
 }
 
-.btn{
-    height: 200px;
-    width: 200px;
+.btn {
+    height: 15vw; /* Adjust size relative to viewport width */
+    width: 15vw; /* Adjust size relative to viewport width */
     border-radius: 20%;
     border: 10px solid black;
     margin: 2.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem; /* Adjust font size for better readability */
 }
 
-.btn-container{
+.btn-container {
     display: flex;
+    flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
     justify-content: center;
 }
 
-.red{
+.red {
     background-color: #d95980;
 }
-.yellow{
+
+.yellow {
     background-color: #f99b45;
 }
-.green{
+
+.green {
     background-color: #63aac0;
 }
-.purple{
+
+.purple {
     background-color: #819ff9;
 }
 
-.flash{
+.flash {
     background-color: white;
 }
 
-.userFlash{
+.userFlash {
     background-color: green;
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 1200px) {
+    .btn {
+        height: 20vw;
+        width: 20vw;
+        margin: 1.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .btn {
+        height: 25vw;
+        width: 25vw;
+        margin: 1rem;
+        font-size: 1rem; /* Adjust font size for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    .btn {
+        height: 30vw;
+        width: 30vw;
+        margin: 0.5rem;
+        font-size: 0.8rem; /* Adjust font size for very small screens */
+    }
 }
