@@ -3,6 +3,7 @@ Welcome to the Simon Says Game repository! This is a classic memory game built u
 
 🚀 Live Demo
 Check out the live version of the game here: 
+https://disha262004.github.io/
 
 🛠️ Features
 Classic Simon Says gameplay with increasing difficulty levels.
