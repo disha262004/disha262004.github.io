@@ -1,4 +1,5 @@
 Simon Says Game 🎮
+
 Welcome to the Simon Says Game repository! This is a classic memory game built using HTML, CSS, and JavaScript. The game is fully responsive, ensuring a seamless experience across all devices.
 
 🚀 Live Demo
